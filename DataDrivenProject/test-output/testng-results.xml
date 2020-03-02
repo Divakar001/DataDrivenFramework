@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="login suite" duration-ms="43032" started-at="2020-02-13T01:30:49 IST" finished-at="2020-02-13T01:31:32 IST">
+    <groups>
+    </groups>
+    <test name="login to application" duration-ms="43032" started-at="2020-02-13T01:30:49 IST" finished-at="2020-02-13T01:31:32 IST">
+      <class name="loginTestCases.FromExcel">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:loginTestCases.FromExcel@3a5ed7a6]" name="beforetest" is-config="true" duration-ms="7504" started-at="2020-02-13T01:30:49 IST" finished-at="2020-02-13T01:30:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="loginwithbothcorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.FromExcel@3a5ed7a6]" name="loginwithbothcorrect" duration-ms="9180" started-at="2020-02-13T01:30:57 IST" data-provider="logindata" finished-at="2020-02-13T01:31:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithbothcorrect -->
+        <test-method status="PASS" signature="loginwithbothcorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.FromExcel@3a5ed7a6]" name="loginwithbothcorrect" duration-ms="10304" started-at="2020-02-13T01:31:06 IST" data-provider="logindata" finished-at="2020-02-13T01:31:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithbothcorrect -->
+        <test-method status="PASS" signature="loginwithbothcorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.FromExcel@3a5ed7a6]" name="loginwithbothcorrect" duration-ms="8622" started-at="2020-02-13T01:31:16 IST" data-provider="logindata" finished-at="2020-02-13T01:31:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithbothcorrect -->
+        <test-method status="PASS" signature="loginwithbothcorrect(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.FromExcel@3a5ed7a6]" name="loginwithbothcorrect" duration-ms="7256" started-at="2020-02-13T01:31:25 IST" data-provider="logindata" finished-at="2020-02-13T01:31:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithbothcorrect -->
+        <test-method status="FAIL" signature="aftertest()[pri:0, instance:loginTestCases.FromExcel@3a5ed7a6]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-02-13T01:31:32 IST" finished-at="2020-02-13T01:31:32 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at loginTestCases.FromExcel.aftertest(FromExcel.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.afterRun(TestRunner.java:853)
+at org.testng.TestRunner.run(TestRunner.java:594)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- loginTestCases.FromExcel -->
+    </test> <!-- login to application -->
+  </suite> <!-- login suite -->
+</testng-results>
